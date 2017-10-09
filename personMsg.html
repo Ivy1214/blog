@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>personMsg</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/personMsg.css">
+</head>
+<body>
+<nav class="navbar navbar-default nav-choose">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand active" href="index.html">首页</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="dailyList.html">日志</a></li>
+                <li><a href="photo.html">相册</a></li>
+                <li><a href="music.html">音乐</a></li>
+                <li><a href="message.html">留言板</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于我<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">个人资料</a></li>
+                        <li><a href="#">我的收藏</a></li>
+                        <li><a href="message.html">我的留言板</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">设置<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">个人信息</a></li>
+                        <li><a href="#">修改密码</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">退出</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div class="page-header headerDiv">
+    <div class="header_photo">
+        <img src="img/photo.jpeg">
+    </div>
+    <div class="blog_name">
+        <h1 class="blogName" contenteditable="true">Ivy's Home</h1>
+        <h3 class="idiograph" contenteditable="true">welcome to my blog and everyday is a lucky day.</h3>
+    </div>
+</div>
+
+<div class="personDiv clear">
+    <div class="leftDiv">
+        <img src="img/photo.jpeg" /><br>
+        <a onclick="">修改头像</a>
+    </div>
+    <div class="rightDiv">
+        <div class="clear">
+            <h4>基本资料</h4>
+            <a onclick="">修改</a>
+        </div>
+        <hr/>
+        <ul>
+            <li id="name_li">
+                <label>姓名：</label>
+            </li>
+            <li id="sex_li">
+                <label>性别：</label>
+            </li>
+            <li id="age_li">
+                <label>年龄：</label>
+            </li>
+            <li id="birthday_li">
+                <label>生日：</label>
+            </li>
+            <li id="astro_li">
+                <label>星座：</label>
+            </li>
+            <li id="live_address_li">
+                <label>现居地：</label>
+            </li>
+            <li id="marriage_li">
+                <label>婚姻状况：</label>
+            </li>
+            <li id="blood_li">
+                <label>血型：</label>
+            </li>
+            <li id="hometown_address_li">
+                <label>故乡：</label>
+            </li>
+            <li id="career_li">
+                <label>职业：</label>
+            </li>
+        </ul>
+
+    </div>
+</div>
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

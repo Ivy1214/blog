@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/music.css">
+    <title>music</title>
+</head>
+<body>
+<nav class="navbar navbar-default nav-choose">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand active" href="index.html">首页</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="dailyList.html">日志</a></li>
+                <li><a href="photo.html">相册</a></li>
+                <li><a href="music.html">音乐</a></li>
+                <li><a href="message.html">留言板</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于我<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">个人资料</a></li>
+                        <li><a href="#">我的收藏</a></li>
+                        <li><a href="message.html">我的留言板</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">设置<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">个人信息</a></li>
+                        <li><a href="#">修改密码</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">退出</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div class="page-header headerDiv">
+    <div class="header_photo">
+        <img src="img/photo.jpeg">
+    </div>
+    <div class="blog_name">
+        <h1 class="blogName" contenteditable="true">Ivy's Home</h1>
+        <h3 class="idiograph" contenteditable="true">welcome to my blog and everyday is a lucky day.</h3>
+    </div>
+</div>
+
+<div style="text-align:center">
+<table class="musicTable">
+    <thead>
+        <tr>
+            <th>序</th>
+            <th>播放</th>
+            <th>歌名</th>
+            <th>歌手名</th>
+            <th>收藏</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="xu">1</td>
+            <td class="mt">
+                <span class="glyphicon glyphicon-play play1" onclick="playPause1()"></span>
+                <div class="musicplay">
+                    <audio class="audio" width="420" id="audio1" controls>
+                        <source src="music/daerwen-caijianya.mp3" type="audio/mp3">
+                        您的浏览器不支持 HTML5 video 标签。
+                    </audio>
+                </div>
+            </td>
+            <td>达尔文</td>
+            <td>蔡健雅</td>
+            <td class="bt">
+                <span class="glyphicon glyphicon-star-empty" id="notCollection" onclick="collection()"></span>
+            </td>
+        </tr>
+        <tr>
+            <td class="xu">2</td>
+            <td class="mt2">
+                <span class="glyphicon glyphicon-play play2" onclick="playPause2()"></span>
+                <div class="musicplay">
+                    <audio class="audio" width="420" id="audio2" controls>
+                        <source src="music/shiyoubajiu-houxian.mp3" type="audio/mp3">
+                        您的浏览器不支持 HTML5 video 标签。
+                    </audio>
+                </div>
+            </td>
+            <td>十有八九</td>
+            <td>后弦</td>
+            <td class="bt2">
+                <span class="glyphicon glyphicon-star-empty" id="notCollection2" onclick="collection2()"></span>
+            </td>
+        </tr>
+        <tr>
+            <td class="xu">3</td>
+            <td class="mt3">
+                <span class="glyphicon glyphicon-play play3" onclick="playPause3()"></span>
+                <div class="musicplay">
+                    <audio class="audio" width="420" id="audio3" controls>
+                        <source src="music/yicijiuhao-yangzongwei.mp3" type="audio/mp3">
+                        您的浏览器不支持 HTML5 video 标签。
+                    </audio>
+                </div>
+            </td>
+            <td>一次就好</td>
+            <td>杨宗纬</td>
+            <td class="">
+                <span class="glyphicon glyphicon-star-empty"></span>
+            </td>
+        </tr>
+        <tr>
+            <td class="xu">4</td>
+            <td class="mt4">
+                <span class="glyphicon glyphicon-play play4" onclick="playPause4()"></span>
+                <div class="musicplay">
+                    <audio class="audio" width="420" id="audio4" controls>
+                        <source src="music/yueguoshanqiu-yangzongwei.mp3" type="audio/mp3">
+                        您的浏览器不支持 HTML5 video 标签。
+                    </audio>
+                </div>
+            </td>
+            <td>越过山丘</td>
+            <td>杨宗纬</td>
+            <td class="">
+                <span class="glyphicon glyphicon-star-empty"></span>
+            </td>
+        </tr>
+        <tr>
+            <td class="xu">5</td>
+            <td class="mt5">
+                <span class="glyphicon glyphicon-play play5" onclick="playPause5()"></span>
+                <div class="musicplay">
+                    <audio class="audio" width="420" id="audio5" controls>
+                        <source src="music/yuanzougaofei-jinzhiwen,xujiaying.mp3" type="audio/mp3">
+                        您的浏览器不支持 HTML5 video 标签。
+                    </audio>
+                </div>
+            </td>
+            <td>远走高飞</td>
+            <td>金志文，徐佳莹</td>
+            <td>
+                <span class="glyphicon glyphicon-star-empty"></span>
+            </td>
+        </tr>
+    </tbody>
+
+</table>
+
+</div>
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/music.js"></script>
+</body>
+</html>

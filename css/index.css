@@ -1,0 +1,43 @@
+body{
+    background-color:#262626;
+}
+.headerDiv{
+    width:100%;
+    margin-top:0;
+    padding-top:2%;
+    border:none;
+    background-color:#262626;
+}
+.header_photo{
+    width: 10%;
+    float: left;
+    margin-left: 5%;
+}
+.header_photo img{
+    width:70%;
+    border-radius: 10%;
+}
+.blog_name{
+    width: 100%;
+}
+.blogName{
+    color:#8c8c8c;
+    display: block;
+    width: 50%;
+    height: 10%;
+}
+.idiograph{
+    color:#9d9d9d;
+}
+.nav-choose{
+    margin-top:0;
+    background-color:#3c3c3c;
+    border:none;
+    color:#080808;
+    width: 100%;
+}
+.item img{
+    width: 950px;
+    height:500px;
+    margin:auto;
+}

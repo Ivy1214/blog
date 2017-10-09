@@ -1,0 +1,19 @@
+.title-bg{
+    background-color: #3c3c3c;
+    border:none;
+}
+.text-content{
+    background-color: #3c3c3c;
+    border:none;
+}
+.text-up{
+    background-color: transparent;
+    border:none;
+    margin-top:2%;
+    color:green;
+}
+.pager li a{
+    background-color: green;
+    border:none;
+    color: #080808;
+}

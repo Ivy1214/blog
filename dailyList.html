@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/dailyList.css">
+
+</head>
+<body onload="init()">
+<nav class="navbar navbar-default nav-choose">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">首页</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="dailyList.html">日志 <span class="sr-only">(current)</span></a></li>
+                <li><a href="photo.html">相册</a></li>
+                <li><a href="music.html">音乐</a></li>
+                <li><a href="message.html">留言板</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于我<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">个人资料</a></li>
+                        <li><a href="#">我的收藏</a></li>
+                        <li><a href="message.html">我的留言板</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">设置<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">个人信息</a></li>
+                        <li><a href="#">修改密码</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">退出</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div class="page-header headerDiv">
+    <div class="header_photo">
+        <img src="img/photo.jpeg">
+    </div>
+    <div class="blog_name">
+        <h1 class="blogName" contenteditable="true">Ivy's Home</h1>
+        <h3 class="idiograph" contenteditable="true">welcome to my blog and everyday is a lucky day.</h3>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-8">
+        <div class="btn-group daily_start" role="group" aria-label="...">
+            <button type="button" class="btn btn-default public_daily"><a href="daily.html">写日志</a></button>
+            <button type="button" class="btn btn-default private_daily"><a href="daily.html">私密日志</a></button>
+        </div>
+        <ul class="list-group daily_list" id="list-group-titleName">
+
+        </ul>
+    </div>
+    <div class="col-xs-6 col-md-4">
+        <div class="classification">
+            <ul class="nav nav-pills nav-stacked">
+                <li role="presentation" class="classiFication"><a href="#">分类</a></li>
+                <li role="presentation" class="Lab"><a href="#">标签</a></li>
+                <li role="presentation" class="pigeOnhole"><a href="#">归档</a></li>
+            </ul>
+        </div>
+    </div>
+    <nav aria-label="Page navigation" class="page_go">
+        <ul class="pagination">
+            <li>
+                <a href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li>
+                <a href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/daily.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+/*日志列表样式*/
+.daily_start{
+    width:100%;
+    margin-left: 20%;
+    margin-right: -50%;
+}
+.daily_start button{
+    margin: 2%;
+    background-color:#4cae4c;
+    border:none;
+    border-radius: 10%;
+}
+.daily_start button a{
+    color:white;
+}
+.daily_list{
+    width:100%;
+    margin-left: 20%;
+    margin-right: -50%;
+    margin-top:10%;
+    list-style: none;
+}
+.textList{
+    margin-top:1%;
+}
+.textList a{
+    font-size: 18px;
+    font-family: Sana;
+    color:#1b6d85;
+    text-decoration: none;
+}
+.textList a:hover{
+    color: #5e5e5e;
+}
+.classification{
+    width: 100%;
+    margin-top:10%;
+}
+.nav-stacked{
+    width: 100%;
+}
+.nav-stacked li{
+    width: 20%;
+}
+.nav-stacked{
+    margin-top:20%;
+}
+.classification a{
+    color:#4cae4c;
+}
+.classiFication a:hover{
+    background:none;
+}
+
+.page_go{
+    width:100%;
+    position: absolute;
+    bottom:15%;
+    left:13%;
+}
+.page_go ul li a{
+    background-color: transparent;
+    color:#4cae4c;
+    border:none;
+}
+.page_go ul li a:hover{
+    background:none;
+}
+.pagination{
+
+    border:none;
+}
+/*日志详情样式*/
+.list-group daily_list{
+    width: 100%;
+}
+.daily_title{
+    font-size: 20px;
+    color:#dddddd;
+    width: 100%;
+}
+.text-content{
+    background-color: #3c3c3c;
+    border:none;
+    width: 100%;
+}

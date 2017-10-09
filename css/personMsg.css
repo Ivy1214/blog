@@ -1,0 +1,46 @@
+.personDiv{
+    width: 80%;
+    margin: 10% auto;
+    color: #1b6d85;
+}
+.leftDiv{
+    width: 20%;
+    float: left;
+}
+.leftDiv img{
+    width: 70%;
+    border-radius: 10%;
+}
+.leftDiv a{
+    color: #2b542c;
+}
+.rightDiv{
+    width: 80%;
+    float: right;
+}
+.rightDiv h4{
+    float: left;
+}
+.rightDiv a{
+    color: #2b542c;
+    float: right;
+    text-decoration: none;
+    cursor: pointer;
+}
+.clear:after{
+    display:block;
+    clear:both;
+    content:"..";
+    visibility:hidden;
+    height:0;
+}
+.clear{
+    zoom:1
+}
+.rightDiv ul{
+    margin-top:5%;
+    list-style: none;
+}
+.rightDiv ul li{
+    margin-left:-2%;
+}

@@ -1,0 +1,39 @@
+.musicTable{
+    margin:10% auto;
+    color:#1b6d85;
+    width: 90%;
+}
+.musicTable thead{
+    width: 100%;
+    color:#dddddd;
+    margin:auto;
+    text-align: left;
+}
+.xu{
+    color:#dddddd;
+}
+.musicTable tbody{
+    width: 100%;
+    color:#1b6d85;
+    margin:auto;
+    text-align: left;
+}
+.musicTable tbody tr{
+    margin-top:2%;
+}
+#notCollection,#collection,#notCollection2,#collection2{
+    cursor: pointer;
+}
+
+#audio1,#audio2,#audio3,#audio4,#audio5{
+    background-color: #dddddd;
+    display: none;
+}
+.play1,.play2,.play3,.play4,.play5{
+    cursor: pointer;
+    color:#1b6d85;
+}
+.stop1,.stop2,.stop3,.stop4,.stop5{
+    cursor: pointer;
+    color:#1b6d85;
+}
